@@ -1,4 +1,4 @@
-# API бот которые помогает поределить кот перед ним или хлеб =)
+# API бот которые помогает поределить кот перед вами или хлеб =)
 [![Base Checks](https://github.com/zavr1k/eora_test/actions/workflows/checks.yml/badge.svg)](https://github.com/zavr1k/eora_test/actions/workflows/checks.yml)
 
 ### Принцип работы
