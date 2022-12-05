@@ -2,6 +2,8 @@
 
 [![Base Checks](https://github.com/zavr1k/eora_test/actions/workflows/checks.yml/badge.svg)](https://github.com/zavr1k/eora_test/actions/workflows/checks.yml)
 
+Бот доступен по ссылке https://eora.ssant.fun/docs
+
 ### Запуск
 
 Для запуска потребутеся docker и утилита make
