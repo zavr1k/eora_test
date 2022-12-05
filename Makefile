@@ -13,6 +13,12 @@ start:
 docker:
 	docker run -p 80:80 -v bot_db:/code/db/ --rm ssant/catbread
 
+compose:
+	docker compose up
+
+down:
+	docker compose down
+
 build:
 	docker build -t ssant/catbread .
 

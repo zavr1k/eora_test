@@ -1,0 +1,9 @@
+localhost {
+
+  # Компрессия
+  encode zstd
+
+  # Проксирование всех запросов в app:8080
+  # app – имя сервиса в docker-compose.yml
+  reverse_proxy /* app:8080
+}
