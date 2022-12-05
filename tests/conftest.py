@@ -10,7 +10,7 @@ from bot_api import database
 from bot_api.services import get_db
 from main import app as _app
 
-TEST_DATABASE_URL = 'sqlite:///./test.db'
+TEST_DATABASE_URL = 'sqlite:///./db/test.db'
 
 engine = create_engine(
     TEST_DATABASE_URL, connect_args={"check_same_thread": False}
