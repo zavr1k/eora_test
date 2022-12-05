@@ -10,11 +10,14 @@ lint:
 start:
 	poetry run uvicorn main:app --reload
 
-docker-run:
+catbread:
 	docker run -p 80:8080 -v bot_db:/code/db/ --rm ssant/catbread
 
 docker-build:
-	docker build -t ssant/catbread .
+	docker build -t catbread .
+
+docker-run:
+	docker run -p 80:8080 -v bot_db:/code/db/ --rm catbread
 
 compose:
 	docker compose up
